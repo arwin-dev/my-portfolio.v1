@@ -22,7 +22,7 @@ class About(models.Model):
     description = models.TextField(blank=False)
     profile_img = models.ImageField(upload_to='profile/')
     email = models.EmailField(max_length=40,blank=True)
-    phone = models.IntegerField(max_length=14,blank=True)
+    phone = models.IntegerField(blank=True)
     addrs = models.CharField(max_length=10,blank=True)
     
     updated = models.DateTimeField(auto_now=True)
