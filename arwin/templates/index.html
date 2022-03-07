@@ -152,13 +152,13 @@
                 <div class="contact__container bd-grid">
                     <div class="contact__info">
                         <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">info.mail.com</span>
+                        <span class="contact__text">{{ about.email }}</span>
 
                         <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+20 999-999</span>
+                        <span class="contact__text">{{ about.phone }}</span>
 
                         <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">My contry</span>
+                        <span class="contact__text">{{ about.addrs }}</span>
                     </div>
 
                     <form action="" class="contact__form">
@@ -179,8 +179,7 @@
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__data">
-                    <h2 class="footer__title">JHON DOE</h2>
-                    <p class="footer__text">I'm Jhon Doe and this is my personal website</p>
+                    <h2 class="footer__title">{{ home.name }}</h2>
                 </div>
 
                 <div class="footer__data">
