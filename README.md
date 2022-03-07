@@ -18,4 +18,4 @@ Steps:
 2. Enter all the information `(Refraining from this step might cause errors)`
 3. Refresh your home page
 
-#### Make sure to run `python manage.py makemigrations` and `python manage.py migrate` commands (Refraining from this step might cause errors)
+#### Important: Make sure to run `python manage.py makemigrations` and `python manage.py migrate` commands (Refraining from this step might cause errors)
