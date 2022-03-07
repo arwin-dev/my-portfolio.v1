@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*t_v!&a-m$r9#b)6otk)ugxu-sc$6fz#27=o@%w-_-h1twx!-1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arwin.pythonanywhere.com']
 
 
 # Application definition
@@ -121,11 +121,8 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root/')
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_root/')
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+STATIC_ROOT = '/home/arwin/my-portfolio/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

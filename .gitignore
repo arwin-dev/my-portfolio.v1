@@ -11,6 +11,8 @@ venv/
 # Database
 db.sqlite3
 
+#media_root
+media_root/
 
 # macOS
 ._*
