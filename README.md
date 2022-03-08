@@ -19,3 +19,5 @@ Steps:
 3. Refresh your home page
 
 #### Important: Make sure to run `python manage.py makemigrations` and `python manage.py migrate` commands (Refraining from this step might cause errors)
+
+#### Note: I have used the HTML template from `https://github.com/bedimcode/responsive-portfolio-website-JhonDoe` for the website, I will be updating it with a version created from scratch
