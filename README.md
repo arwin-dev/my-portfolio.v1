@@ -1,6 +1,6 @@
 # Personal Website | Created using Django
 
-# Set up
+## Set up
 Steps:
 1. Clone/pull/download this repository
 2. Create a virtualenv with `python -m venv env`
@@ -20,4 +20,4 @@ Steps:
 
 #### Important: Make sure to run `python manage.py makemigrations` and `python manage.py migrate` commands (Refraining from this step might cause errors)
 
-#### Note: I have used the HTML template from `https://github.com/bedimcode/responsive-portfolio-website-JhonDoe` for the website, I will be updating it with a version created from scratch
+##### Note: I have used the HTML template from [Bedimcode](https://github.com/bedimcode/responsive-portfolio-website-JhonDoe) for this website, I will be updating it with a version created from scratch
